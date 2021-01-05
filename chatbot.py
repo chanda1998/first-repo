@@ -26,5 +26,5 @@ class chandbot(Client):
         self.markAsDelivered(author_id, thread_id)
         
 
-client = chandbot("jhachandan888293@gmail.com", "*#*#1998#*#*")
+client = chandbot("id", "pswd")
 client.listen()
